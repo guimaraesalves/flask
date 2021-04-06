@@ -1,0 +1,18 @@
+{% from "macros.html" import hello %}
+{% from "macros.html" import displayNumbers %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Macros</title>
+  </head>
+  <body>
+    {{ hello(name) }}
+
+    {{ displayNumbers(numbers) }}
+    <hr>
+    {{ displayNumbers(moreNumbers) }}
+    <hr>
+    {{ displayNumbers(evenMoreNumbers) }}
+  </body>
+</html>
