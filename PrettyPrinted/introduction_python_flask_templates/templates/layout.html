@@ -1,0 +1,17 @@
+  {% extends "structure.html" %}
+  {% block page_content %}
+  <h1>Good night, {{ names.name }}</h1>
+
+  {% if lang %}
+  <p>A Linguagem que você está usando é {{ lanuage }}.</p>
+  {% else %}
+  <p>The framework you are using is {{ framework }}.</p>
+  {% endif %}
+
+  <ul>
+    {% for item in items %}
+    <li>{{ item.text }}</li>
+    <br>
+    {% endfor %}
+  </ul>
+  {% endblock %}
