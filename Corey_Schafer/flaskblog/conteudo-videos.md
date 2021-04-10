@@ -17,3 +17,7 @@ Neste tutorial do Python Flask, aprenderemos como criar formulários e aceitar a
 ### Vídeo 4 - Python Flask Tutorial: Full-Featured App Part 4 - Database with Flask-SQLAlchemy.
 
 Neste tutorial do Python Flask, aprenderemos como criar um banco de dados usando o Flask-SQLAlchemy. SQLAlchemy é uma ótima ferramenta para trabalhar com bancos de dados porque nos permite interagir com o banco de dados de uma forma Orientada a Objetos, o que é muito intuitivo quando nos acostumamos. Estaremos usando um banco de dados SQLite para começar e, em seguida, passaremos para um banco de dados Postgres quando implantarmos o aplicativo. Vamos começar...
+
+### Vídeo 5 - Python Flask Tutorial: Full-Featured App Part 5 - Package Structure.
+
+Neste Python Flask Tutorial, aprenderemos como reestruturar nosso aplicativo em um pacote em vez de rodar a partir de um único módulo. Isso traz grandes benefícios em termos de importação de módulos em nosso aplicativo. Vamos começar...
