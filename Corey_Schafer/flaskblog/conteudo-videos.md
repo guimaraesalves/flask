@@ -2,6 +2,8 @@
 
 ## Canal do youtube: Corey Schafer
 
+> Tutoriais do Python Flask. Nesta série, aprenderemos como construir um aplicativo Flask completo para o zero. Aprenderemos como começar a usar o Flask, usar modelos, criar um banco de dados, fazer upload de imagens, criar um sistema de autenticação e muito mais.
+
 ### Vídeo 1 - Python Flask Tutorial: Full-Featured Web App Part 1 - Getting Started.
 
 Neste tutorial do Python Flask, aprenderemos como começar a usar a estrutura do Flask. Instalaremos os pacotes necessários e obteremos um aplicativo Hello World básico em execução em nosso navegador. Vamos começar...
@@ -21,3 +23,7 @@ Neste tutorial do Python Flask, aprenderemos como criar um banco de dados usando
 ### Vídeo 5 - Python Flask Tutorial: Full-Featured App Part 5 - Package Structure.
 
 Neste Python Flask Tutorial, aprenderemos como reestruturar nosso aplicativo em um pacote em vez de rodar a partir de um único módulo. Isso traz grandes benefícios em termos de importação de módulos em nosso aplicativo. Vamos começar...
+
+### Vídeo 6 - Python Flask Tutorial: Full-Featured Web App Part 6 - User Authentication.
+
+Neste tutorial do Python Flask, aprenderemos como adicionar usuários ao nosso banco de dados. Em seguida, criaremos um sistema de autenticação para que os usuários possam efetuar login e logout de nosso aplicativo. Estaremos usando as extensões flask-bcrypt e flask-login para nos ajudar com isso. Vamos começar...
