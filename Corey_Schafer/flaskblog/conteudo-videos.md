@@ -28,6 +28,9 @@ Neste Python Flask Tutorial, aprenderemos como reestruturar nosso aplicativo em 
 
 Neste tutorial do Python Flask, aprenderemos como adicionar usuários ao nosso banco de dados. Em seguida, criaremos um sistema de autenticação para que os usuários possam efetuar login e logout de nosso aplicativo. Estaremos usando as extensões flask-bcrypt e flask-login para nos ajudar com isso. Vamos começar...
 
-## Vídeo 7 - Python Flask Tutorial: Full-Featured Web App Part 7 - User Account and Profile Picture.
+### Vídeo 7 - Python Flask Tutorial: Full-Featured Web App Part 7 - User Account and Profile Picture.
 
 Neste Python Flask Tutorial, estaremos finalizando nossa página de conta de usuário para que um usuário possa atualizar suas informações. Também estaremos adicionando a capacidade de um usuário carregar uma imagem de perfil. Aprenderemos como podemos redimensionar esta imagem para que ela não ocupe muito espaço em nosso servidor. Vamos começar...
+
+### Vídeo 8 - Python Flask Tutorial: Full-Featured Web App Part 8 - Create, Update, and Delete Posts.
+Neste tutorial do Python Flask, aprenderemos como adicionar a capacidade dos usuários de criar, atualizar e excluir postagens. Também aprenderemos como podemos evitar que os usuários atualizem postagens que não pertencem a eles. Vamos começar...
