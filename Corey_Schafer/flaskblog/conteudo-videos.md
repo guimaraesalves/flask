@@ -34,3 +34,8 @@ Neste Python Flask Tutorial, estaremos finalizando nossa página de conta de usu
 
 ### Vídeo 8 - Python Flask Tutorial: Full-Featured Web App Part 8 - Create, Update, and Delete Posts.
 Neste tutorial do Python Flask, aprenderemos como adicionar a capacidade dos usuários de criar, atualizar e excluir postagens. Também aprenderemos como podemos evitar que os usuários atualizem postagens que não pertencem a eles. Vamos começar...
+
+### Vídeo 9 - Python Flask Tutorial: Full-Featured Web App Part 9 - Pagination.
+Neste Tutorial do Python Flask, aprenderemos como usar a paginação em nosso aplicativo. A paginação nos permite carregar apenas um número selecionado de itens por vez, para que nosso aplicativo não fique atolado. Também aprenderemos como exibir links para páginas diferentes na parte inferior de nossa página, para que os usuários possam navegar rapidamente para a página de sua escolha. Vamos começar...
+
+
