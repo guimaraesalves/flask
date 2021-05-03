@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+
+
+{% block content%}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora do Dia</title>
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+        .clock {
+            background: rgb(223, 219, 203);
+            font-style: normal;
+            font-size: 40px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body onload="carregar()">
+    <header>
+        <h1>Hora do dia</h1>
+    </header>
+    <section>
+        <div id="msg">
+
+        </div>
+        <div id="foto">
+            <img id="imagem" src="imagens/noite.png" alt="foto da manhã">
+        </div>
+    </section>
+    <footer>
+        <p>&copy; MateusGuimaraesAlves</p>
+    </footer>
+    <script src="script.js"></script>
+    <div id="relogio" class="clock"></div>
+        <script type="text/javascript">
+
+            function showTime() {
+                var date = new Date();
+                var h = date.getHours(); // 0 - 23
+                var m = date.getMinutes(); // 0 -59
+                var s = date.getSeconds(); // 0 - 59
+                var session = "AM"
+
+                if (h==0) {
+                    h = 12;
+                }
+
+                if(h > 12) {
+                    h = h - 12;
+                    session = "PM"
+                }
+
+                h = (h > 10) ? "0" + h : h
+                m = (m < 10) ? "0" + m : m
+                s = (s < 10) ? "0" + s : s
+
+                var time = h + ":" + m + ":" + s + " " + session;
+                document.getElementById("relogio").innerText = time;
+                document.getElementById("relogio").textContent = time;
+            }
+
+
+            setInterval(showTime, 1000)
+
+        </script>
+
+  {% endblock %}
